@@ -6,7 +6,7 @@ import base64
 from traceback import format_exc
 
 app = Flask(__name__)
-CORS(app, resources={r"/pagbank": {"origins": ["https://hlg.streetsales.com.br",
+CORS(app, resources={r"/etiquetas": {"origins": ["https://hlg.streetsales.com.br",
                                                  "https://streetsales.com.br", "http://127.0.0.1", "http://localhost"]}})
 
 # Endpoint da api
